@@ -1,0 +1,48 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+}
+.keys{
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key{
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 6px;
+    padding: 10px;
+    width: 90px;
+    height: 70px;
+    background: rgba(255,255,255,0.4);
+    transition: all 0.09s ease;
+}
+
+
+
+.alpha{
+    font: bold 40px/50px Georgia, serif;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    color: black;
+
+}
+
+.sound{
+    font: bold 20px "Ubuntu Mono",serif;
+    color: saddlebrown;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+}
+
+.playing{
+    transform: scale(1.1);
+    box-shadow: red;
+    border-color: red;
+}
