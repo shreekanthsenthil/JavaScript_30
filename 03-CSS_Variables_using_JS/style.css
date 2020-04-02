@@ -1,0 +1,26 @@
+:root{
+    --base: #FF0000;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+h3{
+    text-align: center;
+    font: bold 30px/15px Georgia,sans-serif;
+}
+label{
+    font: bold 20px/5px "Ubuntu Mono",sans-serif;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.js{
+    color: var(--base);
+}
